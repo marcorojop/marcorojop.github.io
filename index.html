@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biografía de Marco Rojo</title>
+    <title>Marco Rojo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
+            line-height: 1.5;
             background-color: #f4f4f4;
             margin: 0;
             padding: 20px;
@@ -21,9 +22,34 @@
         }
         h1 {
             color: #333;
+            text-align: center; /* Solo centrar el h1 */
+            margin-bottom: 0.3em; /* Reducir espacio debajo del h1 */
         }
-        p {
+        h2 {
+            color: #333;
+            margin-top: 0.6em; /* Reducir espacio encima del h2 */
+            margin-bottom: 0.3em; /* Reducir espacio debajo del h2 */
+        }
+        p, ul {
             color: #666;
+            margin-top: 0; /* Quitar margen superior del párrafo y lista */
+            text-align: left; /* Alinear texto y lista a la izquierda */
+        }
+        .social-media {
+            list-style: none;
+            padding: 0;
+            margin-top: 0.3em; /* Reducir espacio encima de la lista */
+        }
+        .social-media li {
+            display: inline;
+            margin-right: 10px;
+        }
+        .social-media a {
+            text-decoration: none;
+            color: #333;
+        }
+        .social-media i {
+            font-size: 24px; /* Tamaño de los íconos */
         }
     </style>
 </head>
@@ -31,6 +57,7 @@
     <div class="container">
         <h1>Marco Rojo</h1>
         <p>Hola, soy Marco Rojo, un apasionado ingeniero de sistemas de Lima, Perú. Me dedico a explorar y aprender sobre los últimos avances en tecnología.</p>
+        <!-- Más contenido aquí -->
 
         <h2>Educación y Experiencia</h2>
         <p>Detalla aquí tu educación y tu experiencia laboral relevante. Puedes mencionar proyectos importantes o habilidades específicas que hayas adquirido.</p>
@@ -38,8 +65,14 @@
         <h2>Proyectos</h2>
         <p>Habla sobre algunos de los proyectos en los que has trabajado. Si es posible, incluye enlaces a estos proyectos o a tu código en GitHub.</p>
 
-        <h2>Contacto</h2>
-        <p>Si deseas saber más sobre mí o contactarme, no dudes en enviarme un correo a [tu-email] o visitar mi perfil de LinkedIn [enlace a tu LinkedIn].</p>
+        <h2>Redes Sociales</h2>
+        <ul class="social-media">
+            <li><a href="https://github.com/marcorojop" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://linkedin.com/in/marcorojol" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://instagram.com/marcorojol" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/marcorojol" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://open.spotify.com/user/31bpmyzavlabzqvd5swfs2efeuq4?si=R2nH68rGQBSymyODPRrM2Q" target="_blank"><i class="fab fa-spotify"></i></a></li>
+        </ul>
     </div>
 </body>
 </html>
